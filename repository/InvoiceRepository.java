@@ -11,7 +11,7 @@ public class InvoiceRepository implements InvoiceRepositoryInterface {
     public void create (Invoice invoice) {
 
         invoices.add(invoice);
-        System.out.println("Facture ajoute avec le numéro " + invoice.getNumber() + "pour " + invoice.getCustomerName());
+        System.out.println("Facture ajoute avec le numéro " + invoice.getNumber() + " pour " + invoice.getCustomerName());
 
     }
 }
